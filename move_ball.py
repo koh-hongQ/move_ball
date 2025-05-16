@@ -1,3 +1,4 @@
+
 import curses
 
 def main(stdscr):
@@ -20,6 +21,8 @@ def main(stdscr):
         stdscr.refresh()
 
         key = stdscr.getch()
+
+
 
         if key == curses.KEY_UP and y > 0:
             y -= 1
